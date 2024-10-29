@@ -1,0 +1,268 @@
+@media (max-width: 1300px) {}
+
+@media (max-width: 1120px) {}
+
+@media (max-width: 992px) {
+  .hero_area {
+    min-height: auto;
+  }
+
+  .hero_area {
+    background: linear-gradient(130deg, #231a6f, #0f054c);
+  }
+
+  .hero_area .hero_bg_box {
+    display: none;
+  }
+
+  .slider_section {
+    padding: 45px 0 75px 0;
+  }
+
+  .custom_nav-container .navbar-nav {
+    padding-top: 15px;
+    align-items: center;
+  }
+
+
+  .custom_nav-container .navbar-nav .nav-item .nav-link {
+    padding: 5px 25px;
+    margin: 5px 0;
+  }
+
+
+}
+
+@media (max-width: 768px) {
+  .about_section .img-box {
+    margin-bottom: 45px;
+  }
+
+}
+
+@media (max-width: 576px) {
+  .header_section .header_top .contact_nav a span {
+    display: none;
+  }
+
+
+  .client_section .client_container {
+    width: 100%;
+  }
+
+  .client_section .box {
+    margin: 0;
+  }
+
+  .owl-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+  }
+
+  .client_section .owl-carousel .owl-nav .owl-prev,
+  .client_section .owl-carousel .owl-nav .owl-next {
+    position: unset;
+    margin: 0 2.5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .slider_section .detail-box h1 {
+    font-size: 2rem;
+  }
+
+  .track_section form {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .track_section form input {
+    width: 100%;
+  }
+
+  .track_section form button {
+    padding: 10px 60px;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 420px) {
+  /* Style for the Read More links */
+.read-more {
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #007bff; /* Bootstrap primary color or change as needed */
+  text-decoration: none;
+}
+
+.read-more:hover {
+  color: #0056b3; /* Darker shade for hover effect */
+  text-decoration: underline;
+}
+
+/* Style for the View All button */
+.view-all-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff; /* Same primary color */
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.view-all-btn:hover {
+  background-color: #0056b3;
+  color: #ffffff;
+  text-decoration: none;
+}
+e}
+
+/* Base Styling for Team Page - For All Screen Sizes */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Light blue background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.team-section {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #fff; /* White background for team section */
+}
+
+.team-section h2 {
+    font-size: 2.2em;
+    color: #003366;
+    margin-bottom: 40px;
+}
+
+/* Styling for Team Member Cards */
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.team-member {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 280px; /* Max width for larger screens */
+    margin: 20px;
+    padding: 30px;
+    border-radius: 8px;
+    background-color: #e6f2ff; /* Light blue for card background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.team-member:hover {
+    transform: scale(1.05);
+}
+
+.team-photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border: 4px solid #003366;
+}
+
+.team-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.team-name {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #003366;
+    margin-bottom: 5px;
+}
+
+.team-position {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icons a {
+    color: #003366;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #1a75ff;
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 768px) {
+    .team-section h2 {
+        font-size: 1.8em;
+    }
+
+    .team-member {
+        padding: 20px;
+        max-width: 100%; /* Full-width on smaller screens */
+    }
+
+    .team-photo {
+        width: 100px;
+        height: 100px;
+    }
+
+    .team-name {
+        font-size: 1.2em;
+    }
+
+    .team-position {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 480px) {
+    .team-section h2 {
+        font-size: 1.5em;
+    }
+
+    .team-member {
+        padding: 15px;
+        margin: 15px;
+    }
+
+    .team-photo {
+        width: 80px;
+        height: 80px;
+    }
+
+    .team-name {
+        font-size: 1.1em;
+    }
+
+    .team-position {
+        font-size: 0.85em;
+    }
+
+    .social-icons a {
+        font-size: 1em;
+    }
+}
